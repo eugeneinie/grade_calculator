@@ -1,0 +1,124 @@
+html {
+    background-color: #333;
+    color: #2196F3;
+}
+
+.box_list, ul {
+    float: left;
+    list-style-type: none;
+ }
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'boxlist1 boxlist2 feedback'
+    'boxlist1 boxlist2 feedback'
+    'boxlist1 boxlist2 feedback';
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.boxlist1 input { 
+    width: 60%;
+    margin-top: 0.65rem;
+    margin-bottom: 0.65rem;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(23, 37, 84);
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    border-radius: 0.375rem;
+    width: 25%;
+}
+
+button { 
+    width: 60%;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-top: 0.65em;
+    margin-bottom: 0.65rem;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(23, 37, 84);
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    border-radius: 0.375rem;
+    width: 50%;
+    margin-left: 3em;
+}
+
+button:hover {
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(23, 37, 84);
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(23, 37, 84);
+}
+
+.sub1 {
+    margin-top: .65rem;
+    margin-bottom: .65rem;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(23, 37, 84);
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    border-radius: 0.375rem;
+}
+
+.sub2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(23, 37, 84);
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    border-radius: 0.375rem;
+}
+
+.sub3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(23, 37, 84);
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    border-radius: 0.375rem;
+}
+
+.sub4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(23, 37, 84);
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    border-radius: 0.375rem;
+}
+
+.sub5 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(23, 37, 84);
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    border-radius: 0.375rem;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+}
